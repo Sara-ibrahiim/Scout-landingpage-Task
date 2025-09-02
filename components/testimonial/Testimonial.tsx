@@ -24,9 +24,9 @@ const Testimonial = () => {
         {/* Center content */}
         <div className="flex flex-col items-center justify-center px-6 md:px-16 py-6 text-center">
           <p className="font-inter font-medium mx-4 md:mx-12 text-lg sm:text-xl md:text-2xl lg:text-[32px] leading-relaxed md:leading-[42px] tracking-tight max-w-xl">
-            "Scout is an indispensable tool for our Engineering, DS and Sales
+            &quot;Scout is an indispensable tool for our Engineering, DS and Sales
             teams to engage with our customers. We rely on Scout daily, making
-            it an integral part of our operations."
+            it an integral part of our operations.&quot;
           </p>
           <div className="mt-10">
             <Image

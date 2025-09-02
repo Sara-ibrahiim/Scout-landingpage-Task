@@ -5,9 +5,7 @@ import Image from "next/image";
 
 const HomePage = () => {
   return (
-    <div
-      className="min-h-screen w-full [background:radial-gradient(circle_at_left_center,rgba(160,160,200,0.25)_0%,transparent_60%),radial-gradient(circle_at_center_top,rgba(100,140,150,0.35)_0%,rgba(10,10,12,1)_100%),radial-gradient(circle_at_right_center,rgba(160,120,180,0.25)_0%,transparent_60%),#0a0a0c]"
-    >
+    <div className="min-h-screen w-full [background:radial-gradient(circle_at_left_center,rgba(160,160,200,0.25)_0%,transparent_60%),radial-gradient(circle_at_center_top,rgba(100,140,150,0.35)_0%,rgba(10,10,12,1)_100%),radial-gradient(circle_at_right_center,rgba(160,120,180,0.25)_0%,transparent_60%),#0a0a0c]">
       <Navbar />
       <section className="min-h-screen w-full text-center py-24  text-white flex flex-col items-center justify-center">
         <div className="px-4 flex flex-col items-center">
@@ -26,7 +24,7 @@ const HomePage = () => {
           </span>
 
           <h1 className="mt-6 text-6xl font-medium leading-tight bg-gradient-to-b from-[#FFFFFF] to-[#BABABA] bg-clip-text text-transparent text-center">
-            AI for teams building <br /> what's next.
+            AI for teams building <br /> what&apos;s next.
           </h1>
 
           <p className="mt-4 text-white/70 text-xl text-center max-w-2xl">
