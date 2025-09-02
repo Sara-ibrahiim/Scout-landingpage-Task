@@ -10,7 +10,7 @@ const Footer = () => {
     >
       <div className="m-auto px-4 grid grid-cols-12 ">
         {/* Logo */}
-        <div className="col-span-12 md:col-span-3 text-center">
+        <div className="col-span-12 md:col-span-6 lg:col-span-3 text-center">
           <Image
             src="/scout.svg"
             width={120}
@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
 
         {/* Links */}
-        <div className="col-span-12 md:col-span-3 text-center">
+        <div className="col-span-12 md:col-span-6  lg:col-span-3 text-center">
           <h3 className="text-white font-medium mb-3">Links</h3>
           <ul className="space-y-2">
             <li>Features</li>
@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
 
         {/* Solutions */}
-        <div className="col-span-12 md:col-span-3 text-center">
+        <div className="col-span-12 md:col-span-6 lg:col-span-3 text-center">
           <h3 className="text-white font-medium mb-3">Solutions</h3>
           <ul className="space-y-2">
             <li>Slack Bot</li>
@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
 
         {/* Legal */}
-        <div className="col-span-12 md:col-span-3 text-center">
+        <div className="col-span-12 md:col-span-6 lg:col-span-3 text-center">
           <h3 className="text-white font-medium mb-3">Legal</h3>
           <ul className="space-y-2">
             <li>Terms of Service</li>
@@ -58,21 +58,21 @@ const Footer = () => {
 
 <div className="w-full my-5 border-t border-b border-[#1F1F1F]">
   <div className="max-w-6xl mx-auto grid grid-cols-12 items-stretch">
-    <p className="col-span-12 md:col-span-4 text-sm text-gray-500 flex items-center justify-center md:justify-start py-3 md:py-0">
+    <p className="col-span-12 lg:col-span-4 text-sm text-gray-500 flex items-center justify-center lg:justify-start py-3 lg:py-0">
       Copyright © 2024 Scout. All rights reserved.
     </p>
 
-    <div className="hidden md:block col-span-5"></div>
+    <div className="hidden lg:block col-span-5"></div>
 
-    <div className="col-span-12 md:col-span-3 flex justify-center md:justify-end">
-      <div className="flex w-full md:w-auto h-16 md:h-20">
-        <div className="flex-1 md:w-20 flex items-center justify-center border-r border-l md:border-l border-[#1F1F1F]">
+    <div className="col-span-12 lg:col-span-3 flex justify-center lg:justify-end">
+      <div className="flex w-full lg:w-auto h-16 lg:h-20">
+        <div className="flex-1 lg:w-20 flex items-center justify-center border-r border-l lg:border-l border-[#1F1F1F]">
           <Image src="/footer/app.svg" alt="App" width={32} height={32} />
         </div>
-        <div className="flex-1 md:w-20 flex items-center justify-center border-r border-[#1F1F1F]">
+        <div className="flex-1 lg:w-20 flex items-center justify-center border-r border-[#1F1F1F]">
           <Image src="/footer/linked.svg" alt="LinkedIn" width={32} height={32} />
         </div>
-        <div className="flex-1 md:w-20 flex items-center justify-center border-r border-[#1F1F1F]">
+        <div className="flex-1 lg:w-20 flex items-center justify-center border-r border-[#1F1F1F]">
           <Image src="/footer/x.svg" alt="X" width={32} height={32} />
         </div>
       </div>

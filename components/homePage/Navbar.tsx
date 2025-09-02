@@ -22,7 +22,7 @@ export default function Navbar() {
             <Image src="/scout.svg" width={120} height={100} alt="scout" />
           </div>
 
-          <div className="hidden md:flex gap-8">
+          <div className="hidden lg:flex gap-8">
             {links.map((link) => (
               <Link key={link.name} href={link.href} >
                 <span className="cursor-pointer text-gray-300 hover:text-white transition">
@@ -33,7 +33,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        <div className="hidden md:flex gap-3">
+        <div className="hidden lg:flex gap-3">
           <button className="px-5 py-1.5 rounded-full bg-[#4d5259] border border-white/30 text-sm text-white/80 hover:bg-white/10 transition">
             Login
           </button>
@@ -43,7 +43,7 @@ export default function Navbar() {
         </div>
 
         <button
-          className="md:hidden"
+          className="lg:hidden"
           onClick={() => setOpen(!open)}
           aria-label="Toggle Menu"
         >
@@ -56,7 +56,7 @@ export default function Navbar() {
       </div>
 
       {open && (
-        <div className="md:hidden flex flex-col border-t border-white/10 px-6 py-4 space-y-4">
+        <div className="lg:hidden flex flex-col border-t border-white/10 px-6 py-4 space-y-4">
           {links.map((link) => (
             <Link
               key={link.name}
