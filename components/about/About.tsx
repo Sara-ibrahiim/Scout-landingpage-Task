@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section className="">
       <div className="flex flex-col md:flex-row border border-[#1F1F1F]">
-        <div className="w-full md:w-48 border-b md:border-b-0 md:border-r border-[#1F1F1F]">
+        <div className="w-full md:w-56 border-b md:border-b-0 md:border-r border-[#1F1F1F]">
        <SideBarItem/>
         </div>
         <div className="flex-1">
@@ -17,7 +17,7 @@ const About = () => {
             <div className="col-span-12 md:col-span-6">
               <ProfileInput />
             </div>
-            <div className="col-span-11 md:col-span-6 overflow-hidden">
+            <div className="col-span-12 md:col-span-6  overflow-auto sm:overflow-visible">
               <ProfileOutput />
             </div>
           </div>

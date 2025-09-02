@@ -67,7 +67,7 @@ function SideBarItem() {
             >
               {app === "Statsbot" ? (
                 <Image
-                  src="/sidebar/ac.svg"
+                  src="/Acce.svg"
                   alt="Statsbot"
                   width={18}
                   height={18}
