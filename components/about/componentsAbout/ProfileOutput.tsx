@@ -12,7 +12,7 @@ const ProfileOutput = () => {
   };
 
   return (
-    <div className="bg-black text-gray-200 md:p-4 rounded-lg w-[300px] md:w-[460px]">
+    <div className="bg-black text-gray-200 md:p-4 rounded-lg w-[300px]  md:w-[460px]">
       <div className="mb-6">
         <button
           onClick={() => toggleSection("output")}
