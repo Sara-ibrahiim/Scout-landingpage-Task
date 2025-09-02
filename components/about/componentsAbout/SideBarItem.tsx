@@ -17,7 +17,7 @@ const mainLinks = [
 
 const apps = ["Statsbot", "Chief", "Docs", "Accounting"];
 
-function Sidebar() {
+function SideBarItem() {
   const [open, setOpen] = useState(false);
 
   const SidebarContent = () => (
@@ -109,4 +109,4 @@ function Sidebar() {
   );
 }
 
-export default Sidebar;
+export default SideBarItem;

@@ -1,14 +1,15 @@
 import NavbarAbout from "./componentsAbout/NavbarAbout";
 import ProfileInput from "./componentsAbout/ProfileInput";
 import ProfileOutput from "./componentsAbout/ProfileOutput";
-import Sidebar from "./componentsAbout/Sidebar";
+import SideBarItem from "./componentsAbout/SideBarItem";
+
 
 const About = () => {
   return (
     <section className="">
       <div className="flex flex-col md:flex-row border border-[#1F1F1F]">
         <div className="w-full md:w-48 border-b md:border-b-0 md:border-r border-[#1F1F1F]">
-          <Sidebar />
+       <SideBarItem/>
         </div>
         <div className="flex-1">
           <NavbarAbout />

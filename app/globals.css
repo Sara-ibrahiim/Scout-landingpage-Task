@@ -7,16 +7,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.border-x-custom {
-  border-left: 1px solid #1F1F1F;
-  border-right: 1px solid #1F1F1F;
-}
 
-
-.border-y-custom {
-  border-top: 1px solid #1F1F1F;
-  border-bottom: 1px solid #1F1F1F;
-}
 
 /* @theme inline {
 
