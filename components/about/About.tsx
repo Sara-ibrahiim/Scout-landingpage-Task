@@ -16,10 +16,8 @@ const About = () => {
             <div className="col-span-12 md:col-span-6">
               <ProfileInput />
             </div>
-            <div className="col-span-12 md:col-span-6 overflow-visible">
-              <div className="sm:scale-90 sm:mx-auto">
-                <ProfileOutput />
-              </div>
+            <div className="col-span-10 md:col-span-6 overflow-hidden sm:scale-90">
+              <ProfileOutput />
             </div>
           </div>
         </div>
