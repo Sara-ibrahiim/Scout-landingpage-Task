@@ -10,7 +10,7 @@ import TrustedBy from "@/components/trustedBy/TrustedBy";
 
 export default function Home() {
   return (
-<div className="flex !flex-col items-center ">
+<div className="flex !flex-col md:border-x md:border-[1px] md:border-[#1F1F1F] md:mx-[70px] ">
   <HomePage/>
   <About />
   <TrustedBy/>

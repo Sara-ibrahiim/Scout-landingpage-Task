@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer
       id="blog"
-      className="bg-black text-gray-400 py-12 border-t border-white/10 p-[120px]"
+      className="bg-black text-gray-400 py-12 border-t border-white/10 "
     >
       <div className="m-auto px-4 grid grid-cols-12 ">
         {/* Logo */}
@@ -56,17 +56,33 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="mt-10 flex grid grid-cols-12 ">
-        <p className="text-sm text-gray-500 col-span-12 md:col-span-3">
-          Copyright © 2024 Scout. All rights reserved.
-        </p>
+<div className="w-full my-5 border-t border-b border-[#1F1F1F]">
+  <div className="max-w-6xl mx-auto grid grid-cols-12 items-stretch">
+    <p className="col-span-12 md:col-span-4 text-sm text-gray-500 flex items-center justify-center md:justify-start py-3 md:py-0">
+      Copyright © 2024 Scout. All rights reserved.
+    </p>
 
-        <div className="flex justify-center gap-6 mt-6 col-span-12 md:col-span-3">
-          <Image src="/icons/github.svg" alt="GitHub" width={24} height={24} />
-          <Image src="/icons/linkedin.svg" alt="LinkedIn" width={24} height={24} />
-          <Image src="/icons/mail.svg" alt="Email" width={24} height={24} />
+    <div className="hidden md:block col-span-5"></div>
+
+    <div className="col-span-12 md:col-span-3 flex justify-center md:justify-end">
+      <div className="flex w-full md:w-auto h-16 md:h-20">
+        <div className="flex-1 md:w-20 flex items-center justify-center border-r border-l md:border-l border-[#1F1F1F]">
+          <Image src="/footer/app.svg" alt="App" width={32} height={32} />
         </div>
+        <div className="flex-1 md:w-20 flex items-center justify-center border-r border-[#1F1F1F]">
+          <Image src="/footer/linked.svg" alt="LinkedIn" width={32} height={32} />
         </div>
+        <div className="flex-1 md:w-20 flex items-center justify-center border-r border-[#1F1F1F]">
+          <Image src="/footer/x.svg" alt="X" width={32} height={32} />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
     </footer>
   );
 };
