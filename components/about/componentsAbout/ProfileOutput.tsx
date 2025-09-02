@@ -1,8 +1,8 @@
-
 "use client";
 
 import { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
+import Image from "next/image";
 
 const ProfileOutput = () => {
   const [openSection, setOpenSection] = useState<string | null>("output");
@@ -13,14 +13,19 @@ const ProfileOutput = () => {
 
   return (
     <div className="bg-black text-gray-200 p-4 rounded-lg w-[460px]">
-
       <div className="mb-6">
         <button
           onClick={() => toggleSection("output")}
           className="flex justify-between items-center w-full py-2"
         >
-          <span className="flex items-center gap-2 font-semibold">
-            ⚡ Generate Response
+          <span className="flex items-center gap-2 ">
+            <Image
+              src="/about/gen.svg"
+              alt="clear icon 2"
+              width={18}
+              height={18}
+            />{" "}
+            Generate Response
           </span>
           {openSection === "output" ? <ChevronUp /> : <ChevronDown />}
         </button>
@@ -52,8 +57,14 @@ const ProfileOutput = () => {
           onClick={() => toggleSection("conditions")}
           className="flex justify-between items-center w-full py-2"
         >
-          <span className="flex items-center gap-2 font-semibold">
-            ⛓ Conditions
+          <span className="flex items-center gap-2 ">
+            <Image
+              src="/about/sel.svg"
+              alt="clear icon 2"
+              width={18}
+              height={18}
+            />{" "}
+            Conditions
           </span>
           {openSection === "conditions" ? <ChevronUp /> : <ChevronDown />}
         </button>
@@ -68,21 +79,25 @@ const ProfileOutput = () => {
         )}
       </div>
 
-
       <div className="mb-6">
         <button
           onClick={() => toggleSection("config")}
           className="flex justify-between items-center w-full py-2"
         >
-          <span className="flex items-center gap-2 font-semibold">
-            ⚙️ Configuration
+          <span className="flex items-center gap-2 ">
+            <Image
+              src="/about/set.svg"
+              alt="clear icon 2"
+              width={18}
+              height={18}
+            />{" "}
+            Configuration
           </span>
           {openSection === "config" ? <ChevronUp /> : <ChevronDown />}
         </button>
 
         {openSection === "config" && (
           <div className="mt-3 space-y-3">
-            
             <div>
               <label className="text-sm">Model</label>
               <select className="w-full bg-transparent border border-gray-600 rounded p-2 mt-1">
@@ -90,25 +105,40 @@ const ProfileOutput = () => {
               </select>
             </div>
 
-
             <div>
               <label className="text-sm">Temperature</label>
-              <div className="flex items-center gap-2 mt-1">
-                <button className="px-3 py-1 border border-gray-600 rounded">
+              <div className="flex mt-1 border border-[#2A2A2A] rounded">
+                <button className="px-3 py-1 border-r border-[#2A2A2A]">
                   -
                 </button>
                 <input
                   type="text"
-                  defaultValue="0,7"
-                  className="w-16 text-center bg-transparent border border-gray-600 rounded"
+                  defaultValue="0.7"
+                  className="w-full text-center bg-transparent focus:outline-none"
                 />
-                <button className="px-3 py-1 border border-gray-600 rounded">
+                <button className="px-3 py-1 border-l border-[#2A2A2A]">
                   +
                 </button>
               </div>
             </div>
 
-         
+            <div className="mt-4">
+              <label className="text-sm">Max Tokens</label>
+              <div className="flex mt-1 border border-[#2A2A2A] rounded">
+                <button className="px-3 py-1 border-r border-[#2A2A2A]">
+                  -
+                </button>
+                <input
+                  type="text"
+                  defaultValue="400"
+                  className="w-full text-center bg-transparent focus:outline-none"
+                />
+                <button className="px-3 py-1 border-l border-[#2A2A2A]">
+                  +
+                </button>
+              </div>
+            </div>
+
             <div>
               <label className="text-sm">Max Tokens</label>
               <div className="flex items-center gap-2 mt-1">
@@ -126,7 +156,6 @@ const ProfileOutput = () => {
               </div>
             </div>
 
-        
             <div>
               <label className="text-sm">Response Type</label>
               <select className="w-full bg-transparent border border-gray-600 rounded p-2 mt-1">
