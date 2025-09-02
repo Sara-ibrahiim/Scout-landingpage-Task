@@ -12,13 +12,13 @@ const ProfileOutput = () => {
   };
 
   return (
-    <div className="bg-black text-gray-200 p-4 rounded-lg w-[460px]">
+    <div className="bg-black text-gray-200 md:p-4 rounded-lg w-[460px]">
       <div className="mb-6">
         <button
           onClick={() => toggleSection("output")}
           className="flex justify-between items-center w-full py-2"
         >
-          <span className="flex items-center gap-2 ">
+          <span className="flex items-center md:gap-2 ">
             <Image
               src="/about/gen.svg"
               alt="clear icon 2"
