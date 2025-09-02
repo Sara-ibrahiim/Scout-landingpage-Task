@@ -8,7 +8,7 @@ const Features = () => {
         <div className="grid grid-cols-12 gap-[2px]">
           <div className="md:bg-[#111] flex items-center justify-center h-[300px] col-span-12 md:col-span-5">
             <Image
-              src="/AI/work.png"
+              src="/features/work.svg"
               alt="work"
               width={400}
               height={400}
@@ -17,7 +17,7 @@ const Features = () => {
           </div>
           <div className="md:bg-[#111] flex items-center justify-center h-[300px] col-span-12 md:col-span-3">
             <Image
-              src="/AI/accese.png"
+              src="/features/accese.svg"
               alt="accese"
               width={400}
               height={400}
@@ -26,7 +26,7 @@ const Features = () => {
           </div>
           <div className="md:bg-[#111] flex items-center justify-center h-[300px] col-span-12 md:col-span-3">
             <Image
-              src="/AI/build.png"
+              src="/features/build.svg"
               alt="build"
               width={400}
               height={400}
@@ -35,7 +35,7 @@ const Features = () => {
           </div>
           <div className="md:bg-[#111] flex items-center justify-center h-[300px] col-span-12 md:col-span-3">
             <Image
-              src="/AI/feat.png"
+              src="/features/feat.svg"
               alt="feat"
               width={400}
               height={400}
@@ -44,7 +44,7 @@ const Features = () => {
           </div>
           <div className="md:bg-[#111] flex items-center justify-center h-[300px] col-span-12 md:col-span-3">
             <Image
-              src="/AI/product.png"
+              src="/features/product.svg"
               alt="product"
               width={400}
               height={400}
@@ -53,7 +53,7 @@ const Features = () => {
           </div>
           <div className="md:bg-[#111] flex items-center justify-center h-[300px] col-span-12 md:col-span-5">
             <Image
-              src="/AI/inbox.png"
+              src="/features/inbox.svg"
               alt="inbox"
               width={400}
               height={400}
