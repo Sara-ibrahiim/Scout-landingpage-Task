@@ -33,7 +33,7 @@ const DedicatedSupport = () => {
         </ul>
       </div>
 
-      <div className="bg-[radial-gradient(50%_50%_at_50%_50%,rgba(27,27,27,0)_0%,rgba(27,27,27,0.8)_100%),linear-gradient(0deg,rgba(12,10,11,0.5)_0%,rgba(12,10,11,0.5)_100%),radial-gradient(50%_50%_at_50%_50%,rgba(155,126,238,0.2)_0%,rgba(0,0,0,0)_100%)] rounded-xl p-4 sm:p-5 w-full md:w-[280px] flex flex-col items-center justify-center text-center">
+      <div className="bg-[radial-gradient(50%_50%_at_50%_50%,rgba(27,27,27,0)_0%,rgba(27,27,27,0.8)_100%),linear-gradient(0deg,rgba(12,10,11,0.5)_0%,rgba(12,10,11,0.5)_100%),radial-gradient(50%_50%_at_50%_50%,rgba(155,126,238,0.2)_0%,rgba(0,0,0,0)_100%)] rounded-xl p-6  w-full md:w-[280px] flex flex-col items-center justify-center text-center">
         <button className="flex px-4 py-2 rounded-full bg-[linear-gradient(0deg,rgba(255,255,255,0.02),rgba(255,255,255,0.02)),linear-gradient(92deg,rgba(130,97,226,0.2)_15.83%,rgba(23,23,23,0.2)_63.01%)] border border-white/30 text-sm text-white/80 hover:bg-white/10 transition">
           <Image src="/pricing/add.svg" alt="icon5" width={18} height={18} />
           <span className="ms-1">ADD ON</span>
