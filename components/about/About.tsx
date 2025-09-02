@@ -17,7 +17,7 @@ const About = () => {
             <div className="col-span-12 md:col-span-6">
               <ProfileInput />
             </div>
-            <div className="col-span-12 md:col-span-6 overflow-hidden">
+            <div className="col-span-11 md:col-span-6 overflow-hidden">
               <ProfileOutput />
             </div>
           </div>
