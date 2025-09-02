@@ -1,4 +1,6 @@
 Scout
+
+
 Scout is a modern landing page built with Next.js 15, TypeScript, and Tailwind CSS. It is designed for high performance, a clean UI, and seamless deployment on Vercel.
 
 🚀 Features
