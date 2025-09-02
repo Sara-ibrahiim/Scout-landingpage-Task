@@ -1,4 +1,4 @@
-import Navbar from "./componentsAbout/navbar";
+import NavbarAbout from "./componentsAbout/NavbarAbout";
 import ProfileInput from "./componentsAbout/ProfileInput";
 import ProfileOutput from "./componentsAbout/ProfileOutput";
 import Sidebar from "./componentsAbout/Sidebar";
@@ -11,7 +11,7 @@ const About = () => {
           <Sidebar />
         </div>
         <div className="flex-1">
-          <Navbar />
+          <NavbarAbout />
           <div className="grid grid-cols-12 gap-2 p-2">
             <div className="col-span-12 md:col-span-6">
               <ProfileInput />

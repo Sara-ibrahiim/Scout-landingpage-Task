@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-export default function Navbar() {
+export default function NavbarAbout() {
   return (
     <nav className="w-full bg-[#111111] border-b border-[#222] flex items-center justify-between px-4 py-5">
       <div className="flex items-center gap-2">
