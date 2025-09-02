@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const DedicatedSupport = () => {
   return (
-    <section className="mt-4 w-full bg-[#0F0F0F] text-white p-4 sm:p-6 rounded-xl flex flex-col md:flex-row justify-between items-center gap-4 sm:gap-6">
+    <section className="mt-4 w-full bg-[#0F0F0F] text-white p-4 sm:p-6 rounded-xl flex flex-col lg:flex-row justify-between items-center gap-4 sm:gap-6">
       <div className="flex-1 border border-[rgba(255,255,255,0.06)] rounded-xl p-4 sm:p-6 bg-[radial-gradient(50%_50%_at_50%_50%,rgba(27,27,27,0)_0%,#1B1B1B_49.48%)]">
         <h2 className="text-lg sm:text-xl font-semibold mb-2">Dedicated Support</h2>
         <p className="text-gray-300 text-sm leading-relaxed mb-4 sm:mb-6">

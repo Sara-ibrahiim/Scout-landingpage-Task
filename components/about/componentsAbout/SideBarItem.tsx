@@ -86,11 +86,11 @@ function SideBarItem() {
 
   return (
     <>
-      <div className="hidden md:flex">
+      <div className="hidden lg:flex">
         <SidebarContent />
       </div>
 
-      <div className="md:hidden p-2">
+      <div className="lg:hidden p-2">
         <Sheet open={open} onOpenChange={setOpen}>
           <SheetTrigger asChild>
             <Button variant="outline" size="icon">

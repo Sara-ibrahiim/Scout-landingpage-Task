@@ -7,9 +7,9 @@ const TrustedBy = () => {
     <section id="blog" className="text-white py-20">
       <div className="w-full max-w-8xl mx-auto  border border-[#1F1F1F]">
         {/* Top row */}
-        <div className="grid grid-cols-2 md:grid-cols-6 border-t border-b border-[#1F1F1F]">
+        <div className="grid grid-cols-2 lg:grid-cols-6 border-t border-b border-[#1F1F1F]">
           {/* Empty left cell (desktop only) */}
-          <div className="hidden md:flex items-center justify-center min-h-[140px]"></div>
+          <div className="hidden lg:flex items-center justify-center min-h-[140px]"></div>
 
           <div className="flex items-center justify-center min-h-[140px] border-l border-[#1F1F1F] p-6">
             <Image
@@ -57,8 +57,8 @@ const TrustedBy = () => {
           Dagster, Evidence and more.
         </p>
 
-        <div className="grid grid-cols-2 md:grid-cols-6 border-t border-b border-[#1F1F1F]">
-          <div className="hidden md:flex items-center justify-center min-h-[140px]"></div>
+        <div className="grid grid-cols-2 lg:grid-cols-6 border-t border-b border-[#1F1F1F]">
+          <div className="hidden lg:flex items-center justify-center min-h-[140px]"></div>
 
           <div className="flex items-center justify-center min-h-[140px] border-l border-[#1F1F1F] p-6">
             <Image
