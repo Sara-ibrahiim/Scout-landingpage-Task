@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Scout",
   description: "AI for teams building",
   icons: {
-    icon:"/logo.png",
+    icon:"/favicon.png",
   },
 };
 
